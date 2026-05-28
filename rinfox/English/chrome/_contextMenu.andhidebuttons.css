@@ -7,67 +7,122 @@
 
 
 
-#contentAreaContextMenu, 
+ #contentAreaContextMenu,
+
 menupopup {
+
     appearance: none !important;
+
     padding: 1px !important;
 
+
     border: 1px solid rgb(151, 151, 151) !important;
+
     
-    background-image: 
+
+    background-image:
+
         linear-gradient(to bottom, rgb(245,245,245) 2px, transparent 2px),
+
         linear-gradient(to top, rgb(245,245,245) 2px, transparent 2px),
+
         linear-gradient(to right, rgb(245,245,245) 2px, transparent 2px),
+
         linear-gradient(to left, rgb(245,245,245) 2px, transparent 2px),
 
-        linear-gradient(to right, 
-            transparent 28px, 
-            rgba(224,224,224,1) 28px, 
-            rgba(224,224,224,1) 29px, 
-            rgba(255,255,255,1) 29px, 
-            rgba(255,255,255,1) 30px, 
+
+        linear-gradient(to right,
+
+            transparent 28px,
+
+            rgba(226,227,227,1) 28px,
+
+            rgba(226,227,227,1) 29px,
+
+            rgba(255,255,255,1) 29px,
+
+            rgba(255,255,255,1) 30px,
+
             transparent 30px) !important;
+
     
+
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y !important;
+
     
+
     background-color: rgb(241, 241, 241) !important;
+
 }
+
 
 #context-navigation {
-    padding-inline-start: 30px !important; 
+
+    padding-inline-start: 30px !important;
+
     background: transparent !important;
+
 }
+
 
 #context-navigation > .menuitem-iconic {
+
     background-color: transparent !important;
+
 }
+
 
 #context-back {
+
     margin-left: 0 !important;
+
 }
+
 
 #context-navigation + menuseparator,
+
 menuseparator {
+
     appearance: none !important;
-    margin-inline-start: 28px !important; 
-    margin-top: 4px !important; 
-    margin-bottom: 2px !important; 
+
+    margin-inline-start: 28px !important;
+
+    margin-top: 4px !important;
+
+    margin-bottom: 2px !important;
+
     padding: 0 !important;
+
     height: 2px !important;
+
     border: none !important;
+
     background: transparent !important;
-    background-image: linear-gradient(to bottom, 
-        rgb(224,224,224) 0px, rgb(224,224,224) 1px, 
+
+    background-image: linear-gradient(to bottom,
+
+        rgb(226,227,227) 0px, rgb(226,227,227) 1px,
+
         rgb(255,255,255) 1px, rgb(255,255,255) 2px) !important;
+
 }
+
 
 #contentAreaContextMenu menuitem,
+
 #contentAreaContextMenu menu {
+
     padding-top: 0px !important;
+
     padding-bottom: 0px !important;
+
     margin-inline: 0px !important;
+
 }
 
+
 .menu-iconic-left {
+
     margin-inline-end: 4px !important;
-}
+
+} 
