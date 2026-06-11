@@ -11,6 +11,7 @@
 #back-button,
 #forward-button 
 {
+  background-position-y: -88px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -28,7 +29,7 @@
 
 #forward-button
 {
-  background-position-x: -29px !important;
+  background-position-x: -28px !important;
 }
 
 
@@ -38,7 +39,7 @@
   width: 29px !important;
   height: 29px !important;
   background-image: url('images/navigation.png') !important;
-  background-position-y: -87px !important;
+  background-position-y: -88px !important;
   list-style-image: none !important;
 }
 
@@ -55,19 +56,19 @@
 #back-button:not([disabled="true"]) > .toolbarbutton-icon,
 #forward-button:not([disabled="true"]) > .toolbarbutton-icon
 {
-  background-position-y: 0 !important;
+  background-position-y: -1px !important;
 }
 
 #back-button:not([disabled="true"]):hover > .toolbarbutton-icon,
 #forward-button:not([disabled="true"]):hover > .toolbarbutton-icon
 {
-  background-position-y: -29px !important;
+  background-position-y: -30px !important;
 }
 
 #back-button:not([disabled="true"]):active > .toolbarbutton-icon,
 #forward-button:not([disabled="true"]):active > .toolbarbutton-icon
 {
-  background-position-y: -58px !important;
+  background-position-y: -59px !important;
 }
 
 /* History Dropdown */
@@ -75,9 +76,9 @@
 #history-panelmenu,
 #history-panelmenu > .toolbarbutton-icon
 {
-  width: 23px !important;
+  width: 28px !important;
   height: 29px !important;
-  padding: 0 !important;
+  padding: -2px !important;
 }
 
 #history-panelmenu > .toolbarbutton-icon {
@@ -87,18 +88,23 @@
 }
 
 #history-panelmenu:not([disabled="true"]) > .toolbarbutton-icon {
-  background-position-y: 0 !important;
+  background-position-y: -1px !important;
 }
 
 #history-panelmenu:not([disabled="true"]):hover > .toolbarbutton-icon {
-  background-position-y: -29px !important;
+  background-position-y: -30px !important;
 }
 
 #history-panelmenu:not([disabled="true"]):active > .toolbarbutton-icon,
 #history-panelmenu:not([disabled="true"])[open="true"] > .toolbarbutton-icon {
-  background-position-y: -58px !important;
+  background-position-y: -59px !important;
 }
 
 #forward-button + #history-panelmenu {
   transform: translateX(-7px) !important;
 }
+
+
+
+
+
