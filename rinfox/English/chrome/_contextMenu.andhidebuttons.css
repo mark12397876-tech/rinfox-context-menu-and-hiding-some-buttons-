@@ -1,12 +1,3 @@
-#unified-extensions-button {
-  display: none !important;
-}
-#PanelUI-button {
-  display: none !important;
-}
-
-
-
 #contentAreaContextMenu, 
 menupopup {
     appearance: none !important;
